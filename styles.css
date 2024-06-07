@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+main > h2 {
+  color: white;
+  font-size: 50px;
+}
+
+main > p {
+  color: white;
+}
+
+.produk {
+  padding-top: 20px;
+}
+
+.akses {
+  padding-top: 20px;
+}
+
+.akses > h2 {
+  color: white;
+}
+
+.akses p {
+  color: white;
+}
+
+.gambar h4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bonus > h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bonus > p {
+  color: white;
+}
+
+.bonus {
+  padding-top: 20px;
+}
+
+.kesulitan {
+  padding-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  /* width: 10px;
+  height: 10px;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px; */
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer button {
+  background-color: white;
+}
+
+@media (max-width: 760px) {
+  .gambar {
+    flex-wrap: wrap;
+  }
+
+  .gambar img {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+  }
+
+  .gambar img:last-child {
+    margin-right: 0;
+  }
+
+  .bonus button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
